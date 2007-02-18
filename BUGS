@@ -1,0 +1,16 @@
+Snake: List of know bugs
+-------------------------------------------------------------------------------
+
+1.	Snake can only be 4000 chars long.
+
+	The snake can only be 4000 chars long. No checking is done to see if
+	it has grown any larger. This is because normally the screen is only
+	80 x 25 chars. But xterms can be bigger than that. The result is
+	unknown to me, but a segfault is probable.
+
+2.	Snake tail routine not optimal
+
+        Snake tail routine is not optimal. Therefor an extra segment is
+        shortly visible when the snake grows. There's also a blank character
+	visible at the starting point of the snake, whenever the snake grows.
+	I know why this happens, but I'm too lazy to fix it.

@@ -1,0 +1,12 @@
+Snake: ChangeLog
+-------------------------------------------------------------------------------
+
+[21 Mar 2000] <fboender@gelrevision.nl>
+
+	* Added different delays for horizontal and vertical movement.
+	* Added 'play again?' question.
+	* Added support for smaller and larger resolutions than 25x80
+
+[28 Mar 2000] <fboender@gelrevision.nl>
+
+	* Added commandline parameter support, see README or ./snake -h
